@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include("shared/head",{title: "Desafios"}) %>
+    <style> 
+      table,td {
+        border: 1px solid black;
+        
+      }
+      table {
+        border-collapse : collapse
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <th>
+        
+      </th>
+      <% for (let prop of results ) { %>
+        <tr>
+          <td> <%- prop.users_id %> </td>
+          <td> <%- prop.challenger_id %> </td>
+        </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
