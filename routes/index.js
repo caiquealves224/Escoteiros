@@ -7,7 +7,4 @@ router.get("/", function(req, res) {
   res.render("index", { title: "Express" });
 });
 
-router.get("/desafios/:id",desafioController.desafiosPorUsuario);
-router.get("/desafios",desafioController.desafios);
-
 module.exports = router;
