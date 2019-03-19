@@ -23,7 +23,13 @@ Aplicação com fins de didaticos
 
 ```sh
 git clone https://github.com/caiquealves224/Escoteiros.git
+```
+
+```sh
 cd Escoteiros
+```
+
+```sh
 npm install
 ```
 
