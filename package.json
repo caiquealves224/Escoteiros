@@ -1,11 +1,19 @@
 {
   "name": "escoteiros",
   "version": "0.0.0",
+  "author":"Caique Alves dos Santos",
   "private": true,
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiquealves224/Escoteiros.git"
+  },
+
   "scripts": {
     "start": "nodemon ./bin/www",
     "lint" : "./node_modules/.bin/eslint"
   },
+
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
