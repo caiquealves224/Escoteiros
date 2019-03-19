@@ -44,4 +44,4 @@ Versão corrente : 0.0.0
 
 ## Contribuidores
 
-Caique Alves dos Santos – [@Facebook](https://www.facebook.com/caique.alves.3367) – caiquealves224@gmail.com [https://github.com/caiquealves224](https://github.com/caiquealves224)
+Caique Alves dos Santos – [@Facebook](https://www.facebook.com/caique.alves.3367) – caiquealves224@gmail.com – [https://github.com/caiquealves224](https://github.com/caiquealves224)

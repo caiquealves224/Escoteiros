@@ -3,11 +3,10 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-const materializa
 
-
-const indexRouter = require("./routes/index");
-const usersRouter = require("./routes/users");
+// rotas
+const indexRouter = require("./routes/desafios");
+const desafioRouter = require("./routes/desafios");
 
 const app = express();
 
@@ -19,7 +18,8 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "node_modules/materialize-css")));
+app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "/node_modules/materialize-css/dist")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
