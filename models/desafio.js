@@ -14,7 +14,7 @@ function index(){
   });
 }
 
-function find(id){
+function findOfUser(id){
 
   return new Promise(function(resolve,reject){
     connection.query(`
