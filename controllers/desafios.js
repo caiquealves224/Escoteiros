@@ -1,7 +1,7 @@
 const desafios = require("./model/desafio");
 
 const index = function(req,res){
-  desafios.index()
+  desafios.all()
     .then((resultado)=>{
       res.render("desafios",{title: "desafios", results:resultado});
     });

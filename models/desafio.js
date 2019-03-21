@@ -1,7 +1,7 @@
 const db = require("../db");
 const connection = db.mysql; 
 
-function index(){
+function all(){
 
   return new Promise(function(resolve,reject){
     connection.query(`
