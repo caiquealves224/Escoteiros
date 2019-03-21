@@ -8,6 +8,6 @@ router.get("/", function(req, res) {
 });
 
 router.get("/desafios/:id",desafioController.desafiosPorUsuario);
-router.get("/desafios",desafioController.desafios);
+router.get("/desafios",desafioController.index);
 
 module.exports = router;

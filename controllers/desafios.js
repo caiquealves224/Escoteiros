@@ -1,4 +1,4 @@
-const desafios = require("./model/desafio");
+const desafios = require("../models/desafio");
 
 const index = function(req,res){
   desafios.all()

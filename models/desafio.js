@@ -28,6 +28,6 @@ function findOfUser(id){
 }
 
 module.exports = {
-  index,
-  find
+  all,
+  findOfUser
 }
