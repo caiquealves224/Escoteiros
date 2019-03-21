@@ -21,10 +21,22 @@ function find(id){
         })
     })
 }
+/**
+ * Recebe nome, descricao e pontos para cadastrar um novo desafio 
+ */
+function insert(nome,desc,pontos=0){
+    return new Promisse ((resolve,reject)=>{
+        connection.query(`INSERT INTO users VALUES (${nome},${desc},${pontos})`, (err,rows)=>{
+            if (err) reject(err);
+            else resolve(rows);
+        });
+    });
+}
 
 
 
 module.exports = {
     all,
-    find
+    find,
+    insert
 }
