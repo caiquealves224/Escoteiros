@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "/node_modules/materialize-css/dist"
 
 // Rotas
 app.use("/", indexRouter);
-app.use("/desafio",desafioRouter);
+app.use("/desafios",desafioRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
