@@ -30,4 +30,4 @@ function findOfUser(id){
 module.exports = {
   all,
   findOfUser
-}
+};
